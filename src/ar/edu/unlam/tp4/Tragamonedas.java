@@ -6,6 +6,18 @@ public class Tragamonedas {
 	private Tambor tambor2;
 	private Tambor tambor3;
 	
+	public Tambor getTambor1() {
+		return tambor1;
+	}
+
+	public Tambor getTambor2() {
+		return tambor2;
+	}
+
+	public Tambor getTambor3() {
+		return tambor3;
+	}
+	
 	/* post: los 3 Tambores del Tragamonedas están
 	* en la posición 1.
 	*/
